@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="myBody">
+    <!-- HTML CODE -->
+    <div class="main">
+        <h1 class="heading">COLOR MIXER</h1>
+         <div class="child">
+            <p class="para">COLOR 1:</p>
+            <input id="col1"  type="text">
+            <button onclick="Cancel()" class="cancel"><i class="fa-solid fa-xmark"></i></button>
+         </div>
+         <div class="child">
+            <p class="para">COLOR 2:</p>
+            <input id="col2" type="text">
+            <button onclick="Cancel()"  class="cancel"><i class="fa-solid fa-xmark"></i></button>
+         </div>
+         <p class="resultpara" id="result"></p>
+         <button 
+         onclick="color()"
+         class="clickme">SUBMIT</i></button>
+    </div>
+    <script src="./scpit.js"></script>
+</body>
+</html>
